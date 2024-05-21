@@ -5,7 +5,7 @@
 }
 
 header {
-  display: flex;
+  display: grid;
   justify-content: center;
   background-color: lightblue;
   height: 70px;
@@ -17,11 +17,18 @@ header > h1 {
   align-self: center;
 }
 
+.header-logo {
+  position: absolute;
+  height: 70px;
+  background-color: lightblue;
+  margin-left: 0px;
+}
+
 main {
   padding: 0 5%;
 }
 
-img {
+.recipe-image {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -30,7 +37,16 @@ img {
 }
 
 article {
+  margin-top: 30px;
   padding: 0 2%;
+}
+
+.ingredience-wrapper {
+  margin-top: 30px;
+}
+
+.ingredience-lists {
+  margin-bottom: 15px;
 }
 
 .recipe-wrapper {
