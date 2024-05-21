@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: lightblue;
+  height: 70px;
+  margin-bottom: 30px;
+}
+
+header > h1 {
+  margin: 0;
+  align-self: center;
+}
+
+main {
+  padding: 0 5%;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+  height: auto;
+}
+
+article {
+  padding: 0 2%;
+}
+
+.recipe-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.instructions-wrapper {
+  width: 60%;
+}
+
+.instruction-paragraphs {
+  margin: 30px 0;
+}
+
+footer {
+  background-color: lightblue;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+footer > p {
+  align-self: center;
+}
